@@ -1,0 +1,136 @@
+h1 {
+    
+    display: flex;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 120px;
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 0;
+    bottom: 0;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    font-size: 50px; 
+    z-index: 2;
+   
+}
+.header {
+    margin: 0 400px 0px 2px;
+    float: left;
+    display: inline-block;
+}
+
+.nav-item {
+    margin: 40px 0px 2px 20px;
+    float: right;
+}
+.nav-link  {
+    color: #cccccc;
+    display: block;
+    font-size: 25px;
+}
+ul li a:hover {
+    
+    color: #4aaaa5;
+
+}
+
+ul {
+    background-color: #ffffff;
+    list-style-type: none;
+    display:inline-block;
+    float:right;
+    width: 100%;
+    line-height: 100%;
+    
+}
+ul a {
+    margin-right: 40px;
+}
+
+img {
+    height: 200px;
+    vertical-align: middle;
+    margin: 0 15px;
+    float :left;
+    
+    
+}
+.bodyCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    width: 960px;
+    height: 440px;
+    display: block;
+    margin: 200px 200px;
+    position: absolute;
+
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #4aaaa5;
+    font-size: 40px;
+}
+.bodyCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+span {
+    position: absolute;
+    display: block;
+    margin: 20px;
+   
+    
+}
+.form-group {
+    margin: 20px;
+}
+button {
+    margin: 0 20px 500px;
+}
+
+input[type="message"] {
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;
+    height: 140px;
+    
+}
+.container {
+    padding: 2px 16px;
+    
+    
+  }
+.container1 {
+    position: absolute;
+    
+  }
+
+  
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 5px;
+    width: 88%;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+body {
+    background-color: #dddddd;
+}
